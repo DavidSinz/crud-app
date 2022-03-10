@@ -1,13 +1,62 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Prompt", sans-serif;
+  font-size: 120%;
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+form input {
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+section {
+  margin: 2rem 1rem 4rem 1rem;
+  padding: 3rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgba(153, 153, 102, 0.2);
+  box-shadow: 5px 5px 20px #888;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  font-size: 1em;
+  padding: 0.6rem;
+  border: 1px solid rgb(228, 138, 180);
+  border-radius: 10px;
+  background-color: rgb(223, 151, 177);
+  color: #fff;
+  margin: 0.5rem;
+}
+form button {
+  margin-top: 2rem;
+}
+
+button:hover {
+  background-color: rgb(212, 131, 163);
+  box-shadow: 2px 2px 2px #888;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.form-input {
+  margin-bottom: 1.2rem;
 }
